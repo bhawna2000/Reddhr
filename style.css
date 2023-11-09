@@ -1,0 +1,67 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      180deg,
+      #00000073,
+      #0000008a 25%,
+      #000000b8 50%,
+      #000
+    ),
+    url("C:/Users/Abhishek Gupta/Downloads/home.jpg");
+}
+h3.icon img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #ff4553;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1;
+  margin-top: 11rem;
+  margin-left: 26rem;
+}
+h3.top-logo img {
+  height: 3rem;
+  margin-left: 25rem;
+  margin-top: 9rem;
+  position: absolute;
+}
+/* h4.bottom-logo img {
+  height: 3rem;
+  margin-left: 38rem;
+   
+} */
+h2.para {
+  font-size: 1.5rem;
+
+  color: white;
+  line-height: 1.75rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 26rem;
+  font-weight: 400;
+
+  word-spacing: 5px;
+}
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff4553;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+margin-left: 26rem;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: #ff4553;
+transform: scale(1.1);
+}
